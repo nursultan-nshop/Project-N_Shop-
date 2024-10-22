@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color:black;
+    position: fixed;
+    
+    background-color: orange;
+    z-index: 1;
+}
+.logo{
+    display: flex;
+    align-self: center;
+}
+
+.tanday{
+    width: 75%;
+    justify-content: space-between;
+}
+nav ul {
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    color: white
+}
+
+.hover-1:hover{
+    color: blue;
+}
+
+.hover-2:hover{
+    color: blue;
+}
+.hover-3:hover{
+    color: blue;
+}
+.hover-4:hover{
+    color: blue;
+}
+.hover-5:hover{
+    color: blue;
+}
+.hover-6:hover{
+    color: blue;
+}
+
+.logotip{
+    width:20px;
+    height:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.suret-boxes{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.suret-div{
+    margin: 20px;
+    border: rgb(222, 101, 27) solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.box-img{
+    width: 300px;
+    border-radius: 15px;
+}
+
+.zakazat{
+    color: white;
+    background-color: rgb(222, 101, 27);
+    width: 95%;
+    position: relative;
+    top: -8px;
+    border-radius: 15px;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+main{
+    padding-top: 150px;
+}
+
+.shadow{
+    text-align: center;
+}
+
+
+
+
+
+
+/* .suret-box{
+    display: flex;  
+}
+
+.text{
+    position: relative;
+    top: -70px;
+    left: 20px;
+
+}
+.box-1{
+    width: 300px;
+    height: 300px;
+}
+
+.box-2{
+    width: 300px;
+    height: 300px;
+}
+
+.box-3{
+    width: 300px;
+    height: 300px;
+}
+
+.box-4{
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+h4{
+    position: relative;
+    top: -55px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    
+    color:black;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+} */

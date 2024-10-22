@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color:black;
+    position: fixed;
+    
+    background-color: orange;
+    z-index: 1;
+}
+.logo{
+    display: flex;
+    align-self: center;
+}
+
+.tanday{
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.logotip{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    padding-top: 150px;
+}
+
+form{
+    background-color: aqua;
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+}
