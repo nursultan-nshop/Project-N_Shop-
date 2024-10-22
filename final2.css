@@ -1,0 +1,36 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color:black;
+    position: fixed;
+    
+    background-color: orange;
+    z-index: 1;
+}
+.logo{
+    width: 25%;
+    display: flex;
+    align-self: center;
+}
+
+.tanday{
+    width: 75%;
+    justify-content: space-between;
+}
+nav ul {
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    color: white
+}
+.logotip{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding-top: 150px;
+}
